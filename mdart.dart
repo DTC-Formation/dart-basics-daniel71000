@@ -26,10 +26,11 @@ void main(){
     //List voyelle=['a','e','i','o','u','à','â','é','è','ê','ë','î','ï','ô','û','ù','ü', 'ö'];
     String mReponse;
     bool conS=false;
+    String mLettres= mLettre;
     var consomme=["b","c","d","e","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","z"];
         //String reps= consomme[2];
         for (var i in consomme){
-            if(i == mLettre){
+            if(i == mLettres){
               conS=true;
               break;
             }
@@ -42,5 +43,5 @@ void main(){
     return mReponse;
   }
 
- print( consvoy("I"));
+ print( consvoy("F"));
 }
