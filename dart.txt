@@ -1,0 +1,21 @@
+Lancer le ficher
+PS E:\projet\dart> dart mdart.dart
+    hello world
+--------------
+Compiler en exe
+PS E:\projet\dart> dart compile exe .\mdart.dart
+Generated: e:\projet\dart\mdart.exe
+-------------
+Lancer l'exe
+PS E:\projet\dart> .\mdart.exe
+	hello world 
+-------------
+var flybyObjects = ['Jupiter', 'Saturn', 'Uranus', 'Neptune'];
+  print (flybyObjects);
+
+  for (final object in flybyObjects) {
+  print(object);
+  for (int mounth=1;mounth<13;mounth+=2 ){
+    print(mounth);
+  }
+--------------
